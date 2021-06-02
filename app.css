@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+body {
+	background-color: #f5f5f5;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	background-color: #fafafa;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
+	max-width: 460px;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	box-sizing: border-box;
+	margin: 20px auto;
+}
+h1 {
+	margin-bottom: 10px;
+}
+input[type='text'] {
+	padding: 0px 10px;
+	width: 70%;
+	margin-bottom: 20px;
+	border: 1px solid #d5d5d5;
+	border-radius: 3px;
+	font-family: 'Nunito', sans-serif;
+	color: #333333;
+	height: 30px;
+	line-height: 30px;
+}
+button {
+	margin-left: 8px;
+	height: 32px;
+	padding: 0px 14px;
+	background-color: #00b0ff;
+	border: none;
+	border-radius: 3px;
+	color: #fafafa;
+}
+.elements-list {
+	border-top: 1px solid #f5f5f5;
+	background: white;
+}
+
+ul {
+	padding: 15px;
+}
+li {
+	cursor: pointer;
+	list-style: none;
+	padding: 10px 5px;
+	background-color: #fff;
+	margin: 12px 0;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
+	border-radius: 3px;
+	transition: 0.4s;
+}
+.fa-trash {
+	color: #a5a5a5;
+	cursor: pointer;
+	float: right;
+	margin-right: 16px;
+}
+.fa-trash:hover {
+	color: #333333;
+}
+button:hover {
+	cursor: pointer;
+	background-color: #1565c0;
+}
+li:hover {
+	background-color: #eeeeee;
+}
+.checked {
+	text-decoration: line-through;
+	background-color: #eeeeee;
+}
